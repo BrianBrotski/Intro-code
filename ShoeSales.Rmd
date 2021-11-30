@@ -73,11 +73,6 @@ t_2016<- table(as.numeric(us_data_2016$`Size (US)`),
 
 ```{r}
 
-```
-
-
-```{r}
-
 df_2015<-as.data.frame.matrix(t_2015) 
 #Convert tables to dataframes for easier data calculations
 df_2016<-as.data.frame.matrix(t_2016) 
@@ -132,67 +127,3 @@ df_combined[,c(25,30)]
 In conclusion the pairstocarry column represents the rough number of shoes to have in stock per size each month of the year.
 With this information I can be 95% percent sure that the number of shoes purchased will not exceed the value in the pairstocarry column for any given month of the year.
 
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
